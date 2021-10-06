@@ -1,0 +1,80 @@
+.loader {
+	height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background: #EDE6E3;
+    opacity: 1;
+    z-index: 1000;
+    transition: all 1s;
+    transition-delay: 2s;
+}
+
+.loader.loaded {
+    opacity: 0;
+    z-index: 1;
+}
+
+@keyframes shake {
+	0% {
+		transform: translateY(-1%);
+	}
+	100% {
+		transform: translateY(3%);
+	}
+}
+
+@keyframes line {
+	0% {
+		stroke-dashoffset: 22;
+	}
+	
+	25% {
+		stroke-dashoffset: 22;
+	}
+	
+	50% {
+		stroke-dashoffset: 0;
+	}
+	
+	51% {
+		stroke-dashoffset: 0;
+	}
+	
+	80% {
+		stroke-dashoffset: -22;
+	}
+	
+	100% {
+		stroke-dashoffset: -22;
+	}
+}
+
+.car__body {
+    animation: shake 0.2s ease-in-out infinite alternate;
+}
+
+.car__line {
+    transform-origin: center right;
+    stroke-dasharray: 22;
+    animation: line 0.8s ease-in-out infinite;
+    animation-fill-mode: both;
+}
+    
+.car__line--top {
+    animation-delay: 0s;
+}
+
+.car__line--middle {
+    animation-delay: 0.2s;
+}
+
+.car__line--bottom {
+    animation-delay: 0.4s;
+}
+
