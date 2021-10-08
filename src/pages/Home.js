@@ -1,9 +1,8 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import Deals from '../components/Deals'
-import Destinations from '../components/Destinations'
-import Features from '../components/Features'
-import Subscribe from '../components/Subscribe'
+import Hero from '../components/home/Hero'
+import Deals from '../components/home/Deals'
+import Destinations from '../components/home/Destinations'
+import Subscribe from '../components/home/Subscribe'
 
 
 const Home = () => {
@@ -11,7 +10,6 @@ const Home = () => {
         <>
             <Hero />
             <Deals />
-            <Features />
             <Destinations />
             <Subscribe />
         </>

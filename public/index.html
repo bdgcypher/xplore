@@ -27,6 +27,33 @@
     <title>Xplore</title>
   </head>
   <body onload="screenLoaded()">
+    <style>
+      /* smooth scroll feature */
+      html {
+          scroll-behavior: smooth;
+      }
+      /*  scrollbar width */
+      ::-webkit-scrollbar {
+          width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+          background-color: transparent;
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+          background: #F06449;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5) inset;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+          background:  #2c2f33;
+      }
+    </style>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -45,4 +72,43 @@
       document.getElementById("loader").classList.add("loaded")
     }
   </script>
+  <!-- Trigger animations on scroll -->
+<script>
+  // Helper function from: http://stackoverflow.com/a/7557433/274826
+  function isElementInViewport(el) {
+    // special bonus for those using jQuery
+    if (typeof jQuery === "function" && el instanceof jQuery) {
+      el = el[0];
+    }
+    var rect = el.getBoundingClientRect();
+    return (
+      (rect.top <= 0
+        && rect.bottom >= 0)
+      ||
+      (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+      ||
+      (rect.top >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+    );
+  }
+  
+  var scroll = window.requestAnimationFrame ||
+              function(callback){ window.setTimeout(callback, 1000/60)};
+  
+  var elementsToShow = document.querySelectorAll('.animated');
+  
+  function loop() {
+  
+    elementsToShow.forEach(function (element) {
+      if (isElementInViewport(element)) {
+        element.classList.add('fadeInUp');
+      }
+    });
+  
+    scroll(loop);
+  }
+  
+  loop();
+</script>
 </html>

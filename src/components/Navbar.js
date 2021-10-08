@@ -6,12 +6,12 @@ import { Btn } from './Btn'
 
 const Navbar = () => {
   return (
-    <Nav>
+    <Nav id="top">
       <NavLogo to="/xplore">Xplore</NavLogo>
       <Bars />
       <NavItems>
         <NavItem>About</NavItem>
-        <NavItem>Destinations</NavItem>
+        <NavItem to="/xplore/destinations">Destinations</NavItem>
         <NavItem>Careers</NavItem>
       </NavItems>
       <NavBtn primary={true} round={true} big={false}>Book a Flight</NavBtn>
@@ -61,6 +61,10 @@ const Bars = styled(FaBars)`
     font-size: 2rem;
     cursor: pointer;
   }
+
+  &:hover {
+    color: #F06449;
+  }
 `;
 
 const NavItems = styled.div`
@@ -74,7 +78,7 @@ const NavItems = styled.div`
   }
 `;
 
-const NavItem = styled.p`
+const NavItem = styled(Link)`
   color: #fff;
   display: flex;
   align-items: center;

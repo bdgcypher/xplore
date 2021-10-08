@@ -33,6 +33,8 @@ const Footer = () => {
                 <p className="mt-4 text-sm text-deep-purple-50">
                   Vstavte sa a zpoznat nadheru sveta okolo vas. Nas ciel je to, aby sme vam pomahali zit najlepsiu formu zivot a zazit vsetko.
                 </p>
+                <br/>
+                <a href="#top" className="text-orange hover:text-cyan">back to top ^</a>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
