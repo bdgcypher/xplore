@@ -8,7 +8,7 @@ const Subscribe = () => {
             <div className="w-full max-w-xl mb-12 xl:pr-16 xl:mb-0 xl:w-7/12">
               <h2 className="animated animatedFadeInUp max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-orange sm:text-4xl sm:leading-none">
                 Want to hear the latest on<br className="hidden md:block" />
-                epic deals and{' '}
+                {" "} epic deals and{' '}
                 <span className="animated animatedFadeInUp text-teal-accent-400">travel packages?</span>
               </h2>
               <p className="animated animatedFadeInUp max-w-xl mb-4 text-base text-gray-400 md:text-lg">

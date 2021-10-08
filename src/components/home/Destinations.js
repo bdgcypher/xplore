@@ -14,7 +14,7 @@ const Destinations = () => {
                         <span className="inline-block mb-1 sm:mb-4">
                         Wake yourself up to the 
                         <br className="hidden md:block" />
-                        Wonders of the World
+                        {" "} Wonders of the World
                         </span>
                         <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
                     </h2>
