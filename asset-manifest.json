@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bdgcypher.github.io/xplore/static/css/main.cf21ce9c.chunk.css",
-    "main.js": "/bdgcypher.github.io/xplore/static/js/main.df9d49a1.chunk.js",
-    "main.js.map": "/bdgcypher.github.io/xplore/static/js/main.df9d49a1.chunk.js.map",
+    "main.js": "/bdgcypher.github.io/xplore/static/js/main.7db6fbd9.chunk.js",
+    "main.js.map": "/bdgcypher.github.io/xplore/static/js/main.7db6fbd9.chunk.js.map",
     "runtime-main.js": "/bdgcypher.github.io/xplore/static/js/runtime-main.530aa639.js",
     "runtime-main.js.map": "/bdgcypher.github.io/xplore/static/js/runtime-main.530aa639.js.map",
     "static/css/2.4ca6fde0.chunk.css": "/bdgcypher.github.io/xplore/static/css/2.4ca6fde0.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.4ca6fde0.chunk.css",
     "static/js/2.165469f7.chunk.js",
     "static/css/main.cf21ce9c.chunk.css",
-    "static/js/main.df9d49a1.chunk.js"
+    "static/js/main.7db6fbd9.chunk.js"
   ]
 }
