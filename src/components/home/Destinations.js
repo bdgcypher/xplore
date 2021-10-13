@@ -36,7 +36,7 @@ const Destinations = () => {
                                 <p className="text-sm tracking-wide text-gray-300">
                                     Initially standing at 146.5 metres (481 feet) tall, the Giza Pyramids were the tallest man-made structures in the world for more than 3,800 years.
                                 </p>
-                                <BtnSlide primary={true} round={true} className="flex my-10 px-10 w-md">Visit this destination</BtnSlide>
+                                <BtnSlide to="/xplore/camels" primary={true} round={true} className="flex my-10 px-10 w-md">Visit this destination</BtnSlide>
                             </div>
                         </div>
                     </a>

@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Home from './pages/Home';
 import Destinations from './pages/Destinations';
+import Camels from './pages/Camels';
 
 import Loader from './components/Loader/Loader';
 import Footer from './components/Footer';
@@ -17,6 +18,7 @@ function App() {
       <Switch>
         <Route path="/xplore/" component={Home} exact />
         <Route path="/xplore/destinations" component={Destinations} />
+        <Route path="/xplore/camels" component={Camels} />
       </Switch>
       <Footer />
     </Router>

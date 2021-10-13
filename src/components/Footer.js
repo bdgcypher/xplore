@@ -28,10 +28,10 @@ const Footer = () => {
               </a>
               <div className="mt-4 lg:max-w-sm">
                 <p className="text-sm text-deep-purple-50">
-                  Wake up to the Wonders of the World around you. Our goal is to help you live your best life and experience it all.
+                  Wake up to the Wonders of the World around you. Our goal is to help you discover your best life and experience it all.
                 </p>
                 <p className="mt-4 text-sm text-deep-purple-50">
-                  Vstavte sa a zpoznat nadheru sveta okolo vas. Nas ciel je to, aby sme vam pomahali zit najlepsiu formu zivot a zazit vsetko.
+                  Zobuď sa s divmi sveta okolo seba. Našim cieľom je pomôcť vám objaviť váš najlepší život a všetko to zažiť.
                 </p>
                 <br/>
                 <a href="#top" className="text-orange hover:text-cyan">back to top ^</a>

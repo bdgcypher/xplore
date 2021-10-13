@@ -36,7 +36,7 @@ const Deals = () => {
                         <p className="animated animatedFadeInUp mb-2 text-gray-700">
                             There are loads of Historical and cultural events to visit and experience in countries such as Spain, Italy, Slovakia, The Netherlands and more...
                         </p>
-                        <BtnSlide to="/xplore" className="animated animatedFadeInUp inline-flex items-center font-semibold">View Destinations</BtnSlide>
+                        <BtnSlide to="/xplore" className="inline-flex items-center font-semibold">View Destinations</BtnSlide>
                         </div>
                     </div>
                     <div className="animated animatedFadeInUp overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
@@ -68,7 +68,7 @@ const Deals = () => {
                         <p className="animated animatedFadeInUp mb-2 text-gray-700">
                         Take some personal time in the upcoming winter months to shed your coat <i>and</i> your worries in one of our all-inclusive Resort Locations.
                         </p>
-                        <BtnSlide to="/xplore" className="animated animatedFadeInUp inline-flex items-center font-semibold">See resort deals</BtnSlide>
+                        <BtnSlide to="/xplore" className="inline-flex items-center font-semibold">See resort deals</BtnSlide>
                         </div>
                     </div>
                     <div className="animated animatedFadeInUp overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
@@ -100,7 +100,7 @@ const Deals = () => {
                         <p className="animated animatedFadeInUp mb-2 text-gray-700">
                             Looking to boost your camera career, or even just add some inspiration to your instagram page? Take one of our in-depth photography courses and really make those pictures <i>pop!</i>
                         </p>
-                        <BtnSlide to="/xplore" className="animated animatedFadeInUp inline-flex items-center font-semibold">Get photography tips</BtnSlide>
+                        <BtnSlide to="/xplore" className="inline-flex items-center font-semibold">Get photography tips</BtnSlide>
                         </div>
                     </div>
                 </div>
