@@ -55,7 +55,7 @@ const Destinations = () => {
                                     Some hotels are built high in the trees with branches as structural elements! For example the <i>Treehotel</i> near Piteå,
                                     Sweden or the Costa Rican <i>Tree House</i> near the Jairo Mora Sandoval.
                                 </p>
-                                <BtnSlide primary={true} round={true} className="flex my-10 px-10 w-md">Schedule a stay here</BtnSlide>
+                                <BtnSlide to="/xplore/treehouse" primary={true} round={true} className="flex my-10 px-10 w-md">Schedule a stay here</BtnSlide>
                             </div>
                         </div>
                     </a>
@@ -72,7 +72,7 @@ const Destinations = () => {
                                     The Rocky Mountains are a major mountain range and the largest mountain system in North America.
                                     Through <i>Xplore</i> you can take a guided Hiking or climbing excursion through their natural beauty.
                                 </p>
-                                <BtnSlide primary={true} round={true} className="flex my-10 px-10 w-md">Getaway to the wild</BtnSlide>
+                                <BtnSlide to="/xplore/rockclimbing" primary={true} round={true} className="flex my-10 px-10 w-md">Getaway to the wild</BtnSlide>
                             </div>
                         </div>
                     </a>
@@ -91,7 +91,7 @@ const Destinations = () => {
                                 In an oldschool style van converted to a tiny-home you are free to travel as much or little as you would like. 
                                 Rent now and cruise down the coast in style.
                                 </p>
-                                <BtnSlide primary={true} round={true} className="flex my-10 px-10 w-md">Plan your Van-cation</BtnSlide>
+                                <BtnSlide to="/xplore/van" primary={true} round={true} className="flex my-10 px-10 w-md">Plan your Van-cation</BtnSlide>
                             </div>
                         </div>
                     </a>
