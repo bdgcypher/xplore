@@ -24,8 +24,8 @@ function App() {
       <Loader />
       <Navbar />
       <Switch>
-        <Route path="/xplore" component={Home} exact />
-        <Route path="/destinations" component={Destinations} />
+        <Route path="/xplore/" component={Home} exact />
+        <Route path="/xplore/destinations" component={Destinations} />
         <Route path="/xplore/camels" component={Camels} />
         <Route path="/xplore/treehouse" component={Treehouses} />
         <Route path="/xplore/rockclimbing" component={Rockclimbing} />
