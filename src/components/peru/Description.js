@@ -7,28 +7,26 @@ const Description = () => {
           <hr className="animated animatedFadeInUp bg-orange text-orange h-1 mb-20" />
           <div className="mb-20 lg:mb-0">
               <h2 className="animated animatedFadeInUp mb-4 text-3xl text-orange font-bold leading-none sm:text-4xl">
-                One of the Seven Wonders of the Ancient World 
+                A world lost in time
               </h2>
               <p className="animated animatedFadeInUp mb-6">
-                The last remaining of the Seven Wonders of the ancient world, the great pyramids of Giza are perhaps the most famous and 
-                discussed structures in history. These massive monuments were unsurpassed in height for thousands of years after their 
-                construction and continue to amaze and enthrall us with their overwhelming mass and seemingly impossible perfection. 
-                Their exacting orientation and mind-boggling construction has elicited many theories about their origins, including 
-                unsupported suggestions that they had extra-terrestrial impetus. However, by examining the several hundred years prior 
-                to their emergence on the Giza plateau, it becomes clear that these incredible structures were the result of many experiments, 
-                some more successful than others. Despite this they are still wonderful to behold.
+                Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru. 
+                The Urubamba River flows past it, cutting through the Cordillera and creating a canyon with a tropical mountain climate. 
+                Machu Picchu was built in the classical Inca style, with polished dry-stone walls. Its three primary structures are the 
+                Intihuatana, the Temple of the Sun, and the Room of the Three Windows. Most of the outlying buildings have been 
+                reconstructed in order to give visitors a better idea of how they originally appeared. You will be astounded by the vast beauty of these ruins.
               </p>
               <p className="animated animatedFadeInUp mx-20 font-bold mb-20">Book with Xplore and get...</p>
           </div>
           <div className="flex flex-col items-start py-4 transition duration-300 transform rounded sm:px-4 lg:flex-row sm:hover:translate-x-4 sm:hover:bg-blue-gray-50">
             <div className="mb-4 lg:mb-0">
               <h5 className="animated animatedFadeInUp mb-4 text-xl font-bold leading-none sm:text-2xl">
-                Pyramid Tour
+                Ruins tour
               </h5>
               <div className="relative pr-8">
                 <p className="animated animatedFadeInUp text-base text-gray-700 md:text-lg">
-                  Take a guided tour of the Pyramid of Khufu (the largest) and walk around the 3 pyramid complexes. 
-                  Tour guides will inform you of some historical facts, scary mummy stories and more...
+                  Take a guided tour of the 3 main stuctures. We especially like the <i>Temple of the Sun</i>.
+                  Tour guides will recount you with some historical facts and stories
                 </p>
               </div>
             </div>
@@ -36,12 +34,11 @@ const Description = () => {
           <div className="flex flex-col items-start py-4 transition duration-300 transform rounded sm:px-4 lg:flex-row sm:hover:translate-x-4 sm:hover:bg-blue-gray-50">
             <div className="mb-4 lg:mb-0">
               <h5 className="animated animatedFadeInUp mb-4 text-xl font-bold leading-none sm:text-2xl">
-                Camel Ride
+                Unguided exploration
               </h5>
               <div className="relative pr-8">
                 <p className="animated animatedFadeInUp text-base text-gray-700 md:text-lg">
-                  In the desert lanscape of egypt there is only 1 way for a tourist to travel in style! You can ride a camel 
-                  around the pyramid complexes and feel like a character in the movie <i>Hump</i>.
+                  On your trip you will also get the opportunity to explore for yourself and hike around the mountainside.
                 </p>
               </div>
             </div>
@@ -49,12 +46,12 @@ const Description = () => {
           <div className="flex flex-col items-start py-4 transition duration-300 transform rounded sm:px-4 lg:flex-row sm:hover:translate-x-4 sm:hover:bg-blue-gray-50">
             <div className="mb-4 lg:mb-0">
               <h5 className="animated animatedFadeInUp mb-4 text-xl font-bold leading-none sm:text-2xl">
-                The Great Sphinx of Giza
+                The Food!
               </h5>
               <div className="relative pr-8">
                 <p className="animated animatedFadeInUp text-base text-gray-700 md:text-lg">
-                  One of the world's greatest wonders, the sphynx is truly a sight to Behold. As part of our Premium package you will have the chance to stand 
-                  right up next to the sphinx and take photos and make some of the best memories imaginable.
+                  At the end of your time exploring and hiking you can sit down for an authentic peruvian dinner 
+                  with foods such as Empanadas, Ceviche, and Rocoto Relleno (Stuffed Spicy Peppers).
                 </p>
               </div>
             </div>

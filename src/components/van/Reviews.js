@@ -14,19 +14,18 @@ const Reviews = () => {
                 className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 <p className="animated animatedFadeInUp font-sans text-xl text-orange font-extrabold leading-none tracking-tight lg:text-4xl xl:text-5xl">
-                  Awe inspiring! Changed my life.
+                  Loved it, but only for a bit
                 </p>
               </a>
             </div>
             <p className="animated animatedFadeInUp mb-4 text-base text-gray-700 md:text-lg">
-              Call it magical, call it unreal, call it whatever
-              you want, this trip was sooooo cool!
+              This was an epic trip, I liked the freedom, but I miss my shower and my TV
             </p>
             <div className="animated animatedFadeInUp flex items-center">
                 <a aria-label="Author" className="mr-3">
                     <img
                     alt="avatar"
-                    src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                    src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
                     className="object-cover w-10 h-10 rounded-full shadow-sm"
                     />
                 </a>
@@ -35,7 +34,7 @@ const Reviews = () => {
                   aria-label="Author"
                   className="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
-                  Petru Vîrtos
+                  Sarah Suthers
                 </a>
                 <p className="text-sm font-medium leading-4 text-gray-600">
                   Tourist
@@ -54,12 +53,12 @@ const Reviews = () => {
                   className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                   <p className="animated animatedFadeInUp font-sans text-xl text-orange font-extrabold leading-none tracking-tight lg:text-2xl">
-                    What an experience
+                    #vanlife
                   </p>
                 </a>
               </div>
               <p className="animated animatedFadeInUp mb-4 text-base text-gray-700 md:text-lg">
-                I loved the sphinx and the amazing architechture and history! It felt like I was living in the past. Sad I had to come back to the present. Thanks Xplore!
+                I loved this trip so much, I am definitely going to get myself a van to keep!
               </p>
               <div className="animated animatedFadeInUp flex items-center">
                 <a aria-label="Author" className="mr-3">
@@ -77,7 +76,7 @@ const Reviews = () => {
                     Alex Stratulat
                   </a>
                   <p className="text-sm font-medium leading-4 text-gray-600">
-                    Travel Journalist
+                    Travel Enthusiast
                   </p>
                 </div>
               </div>
@@ -92,19 +91,19 @@ const Reviews = () => {
                   className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                   <p className="animated animatedFadeInUp font-sans text-xl text-orange font-extrabold leading-none tracking-tight lg:text-2xl">
-                    Hump Day!!!
+                    Why not just go camping?
                   </p>
                 </a>
               </div>
               <p className="animated animatedFadeInUp mb-4 text-base text-gray-700 md:text-lg">
-                My favorite part by faaarrrrr was the camel rides! It was so much fun and they were really weird :P 
-                Plus the buffet is so good! I would definitely splurge and go for the premium package.
+                I guess it was cool to have a bed in the back, but why not just take my own car and pull over 
+                to set up a tent for the night? The only thing that made it worthwhile was that they covered the gas costs.
               </p>
               <div className="animated animatedFadeInUp flex items-center">
                 <a aria-label="Author" className="mr-3">
                   <img
                     alt="avatar"
-                    src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                    src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                     className="object-cover w-10 h-10 rounded-full shadow-sm"
                   />
                 </a>
@@ -113,7 +112,7 @@ const Reviews = () => {
                     aria-label="Author"
                     className="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-400"
                   >
-                    Susie the Cat
+                    Patrick String
                   </a>
                   <p className="text-sm font-medium leading-4 text-gray-600">
                     Tourist

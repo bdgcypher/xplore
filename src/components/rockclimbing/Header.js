@@ -13,13 +13,13 @@ const Header = () => {
                     <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
                         <div className="max-w-xl mb-6">
                             <h2 className="header animated fadeInUp max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-orange sm:text-4xl sm:leading-none">
-                                Giza Pyramids{' '}
+                                Climbing Tour{' '}
                                 <span className="inline-block text-deep-purple-accent-400">
                                 package
                                 </span>
                             </h2>
                             <p className="header2 animated fadeInUp text-base text-gray-700 md:text-lg">
-                                What better way to see these majestic monuments than from the back of a real live camel? You're sure to get a great story from this one!
+                                Hike, crawl, and climb through these gargantuan granite peaks
                             </p>
                         </div>
                     </div>

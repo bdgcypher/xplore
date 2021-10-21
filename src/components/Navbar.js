@@ -10,11 +10,11 @@ const Navbar = () => {
       <NavLogo to="/xplore">Xplore</NavLogo>
       <Bars />
       <NavItems>
-        <NavItem>About</NavItem>
+        <NavItem to="/xplore/about">About</NavItem>
         <NavItem to="/xplore/destinations">Destinations</NavItem>
-        <NavItem>Careers</NavItem>
+        <NavItem to="/xplore/careers">Careers</NavItem>
       </NavItems>
-      <NavBtn primary={true} round={true} big={false}>Book a Flight</NavBtn>
+      <NavBtn to="/xplore/destinations" primary={true} round={true} big={false}>Book a trip</NavBtn>
     </Nav>
   )
 }

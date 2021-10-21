@@ -34,7 +34,7 @@ const Footer = () => {
                   Zobuď sa s divmi sveta okolo seba. Našim cieľom je pomôcť vám objaviť váš najlepší život a všetko to zažiť.
                 </p>
                 <br/>
-                <a href="#top" className="text-orange hover:text-cyan">back to top ^</a>
+                <a href="#top" className="text-orange hover:text-cyan">back to top</a>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">

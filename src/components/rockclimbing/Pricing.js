@@ -47,9 +47,9 @@ export const Pricing = () => {
                   </p>
                   <div class="flex items-center justify-center">
                     <p class="mr-2 text-5xl font-semibold text-gray-900 lg:text-6xl">
-                      $789
+                      $356
                     </p>
-                    <p class="text-lg text-gray-500">- 1 week</p>
+                    <p class="text-lg text-gray-500">- 1 day</p>
                   </div>
                 </div>
                 <ul class="mb-8 space-y-2">
@@ -75,7 +75,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-700">Guided tour of Khufu's Pyramid</p>
+                    <p class="font-medium text-gray-700">Guided Tour</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
@@ -99,7 +99,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-700">2 free camel rides</p>
+                    <p class="font-medium text-gray-700">Equipment Provided</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
@@ -123,7 +123,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-700">Visit the Sphynx</p>
+                    <p class="font-medium text-gray-700">2 meals and plenty of water</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
@@ -169,9 +169,9 @@ export const Pricing = () => {
                   </p>
                   <div class="flex items-center justify-center">
                     <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
-                      $1903
+                      $784
                     </p>
-                    <p class="text-lg text-gray-200">- 2 weeks</p>
+                    <p class="text-lg text-gray-200">- 3 days</p>
                   </div>
                 </div>
                 <ul class="mb-8 space-y-2">
@@ -197,7 +197,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-100">Guided tour of Khufu's Pyramid</p>
+                    <p class="font-medium text-gray-100">Guided Tour</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
@@ -221,7 +221,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-100">5 free camel rides</p>
+                    <p class="font-medium text-gray-100">Equipment Provided</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
@@ -245,31 +245,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-100">Visit the Sphynx</p>
-                  </li>
-                  <li class="flex items-center">
-                    <div class="mr-3">
-                      <svg
-                        class="w-4 h-4 text-teal-accent-400"
-                        viewBox="0 0 24 24"
-                        strokeLinecap="round"
-                        strokeWidth="2"
-                      >
-                        <polyline
-                          fill="none"
-                          stroke="currentColor"
-                          points="6,12 10,16 18,8"
-                        />
-                        <circle
-                          cx="12"
-                          cy="12"
-                          fill="none"
-                          r="11"
-                          stroke="currentColor"
-                        />
-                      </svg>
-                    </div>
-                    <p class="font-medium text-gray-100">Resort with pool, spa, and buffet</p>
+                    <p class="font-medium text-gray-100">9 full meals and a variety of beverages</p>
                   </li>
                 </ul>
                 <button

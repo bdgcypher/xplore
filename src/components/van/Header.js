@@ -34,13 +34,14 @@ const Header = () => {
                     <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
                         <div className="max-w-xl mb-6">
                             <h2 className="header3 animated fadeInUp max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-orange sm:text-4xl sm:leading-none">
-                                Treehouse Hotel{' '}
+                                Retro Van{' '}
                                 <span className="inline-block text-deep-purple-accent-400">
                                 package
                                 </span>
                             </h2>
                             <p className="header4 animated fadeInUp text-base text-gray-700 md:text-lg">
-                                The kid in all of us wants to live in a treehouse. Just take care if you're afraid of heights!
+                                Have you ever wanted the freedom to see the sights without having to book a hotel? 
+                                Well now you can take your bed with you on the road! Not to mention you will be travelling in style
                             </p>
                         </div>
                     </div>

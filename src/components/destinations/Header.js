@@ -30,21 +30,33 @@ const Header = () => {
                   The <i>greatest</i> adventure you've <br className="hidden md:block" />
                    ever had is just a click away
                 </h2>
-                <a href="#trip1">
-                  <DownBtn className="bounce text-white bg-orange text-2 px-1 py-1 ml-36 lg:ml-56 shadow-2xl"></DownBtn>
+                <a
+                href="#trip1"
+                aria-label="Scroll down"
+                className="header4 bounce flex items-center justify-center w-10 h-10 mx-auto mt-10 text-white duration-300 transform bg-orange rounded-full hover:bg-cyan hover:shadow hover:scale-110"
+                >
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="currentColor"
+                    >
+                        <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z" />
+                    </svg>
                 </a>
               </div>
               <div className="w-full mt-20 max-w-xl xl:px-8 xl:w-5/12">
-                <div className="header2 bg-white rounded shadow-2xl p-7 sm:p-10">
+                <div className="header2 animated fadeInUp bg-white rounded shadow-2xl p-7 sm:p-10">
                   <h3 className="header3 animated fadeInUp mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
-                    Machu Pichu, Peru
+                    Machu Picchu, Peru
                   </h3>
                   <p className="header4 animated fadeInUp mt-10 mb-32">
-                      <i>Live</i> the past as you hike through the Ancient Mayan ruins of Machu Pichu. 
+                      <i>Live</i> the past as you hike through the Ancient Incan ruins of Machu Picchu. 
                       With an all inclusive vacation deal you can take a guided tour of the ruins,
                       experience authentic peruvian cuisine, and be a part of the colorful culture
                   </p>
-                  <Btn to="/xplore/machupichu" primary={true} round={true} className="header5 animated fadeInUp inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-orange hover:bg-white focus:shadow-outline focus:outline-none">View Destination</Btn>
+                  <Btn to="/xplore/machupicchu" primary={true} round={true} className="header5 animated fadeInUp inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-orange hover:bg-white focus:shadow-outline focus:outline-none">View Destination</Btn>
                 </div>
               </div>
             </div>

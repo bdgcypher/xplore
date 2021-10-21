@@ -14,13 +14,12 @@ const Reviews = () => {
                 className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 <p className="animated animatedFadeInUp font-sans text-xl text-orange font-extrabold leading-none tracking-tight lg:text-4xl xl:text-5xl">
-                  Awe inspiring! Changed my life.
+                  Wow, just wow
                 </p>
               </a>
             </div>
             <p className="animated animatedFadeInUp mb-4 text-base text-gray-700 md:text-lg">
-              Call it magical, call it unreal, call it whatever
-              you want, this trip was sooooo cool!
+              I still can hardly belive I was there. it was breathtaking.
             </p>
             <div className="animated animatedFadeInUp flex items-center">
                 <a aria-label="Author" className="mr-3">
@@ -35,7 +34,7 @@ const Reviews = () => {
                   aria-label="Author"
                   className="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
-                  Petru Vîrtos
+                  Sam Haleston
                 </a>
                 <p className="text-sm font-medium leading-4 text-gray-600">
                   Tourist
@@ -59,7 +58,7 @@ const Reviews = () => {
                 </a>
               </div>
               <p className="animated animatedFadeInUp mb-4 text-base text-gray-700 md:text-lg">
-                I loved the sphinx and the amazing architechture and history! It felt like I was living in the past. Sad I had to come back to the present. Thanks Xplore!
+                I loved the temple and the amazing architechture and history! It felt like I was living in the past. Sad I had to come back to the present. Thanks Xplore!
               </p>
               <div className="animated animatedFadeInUp flex items-center">
                 <a aria-label="Author" className="mr-3">
@@ -92,13 +91,12 @@ const Reviews = () => {
                   className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                   <p className="animated animatedFadeInUp font-sans text-xl text-orange font-extrabold leading-none tracking-tight lg:text-2xl">
-                    Hump Day!!!
+                    Cuzcotopia!
                   </p>
                 </a>
               </div>
               <p className="animated animatedFadeInUp mb-4 text-base text-gray-700 md:text-lg">
-                My favorite part by faaarrrrr was the camel rides! It was so much fun and they were really weird :P 
-                Plus the buffet is so good! I would definitely splurge and go for the premium package.
+                Anybody seen the emporor's new groove? anybody? Well I basically was in it! So many llamas!!! 
               </p>
               <div className="animated animatedFadeInUp flex items-center">
                 <a aria-label="Author" className="mr-3">

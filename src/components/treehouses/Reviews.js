@@ -14,13 +14,13 @@ const Reviews = () => {
                 className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 <p className="animated animatedFadeInUp font-sans text-xl text-orange font-extrabold leading-none tracking-tight lg:text-4xl xl:text-5xl">
-                  Awe inspiring! Changed my life.
+                  Cozy Vibes
                 </p>
               </a>
             </div>
             <p className="animated animatedFadeInUp mb-4 text-base text-gray-700 md:text-lg">
               Call it magical, call it unreal, call it whatever
-              you want, this trip was sooooo cool!
+              you want, I had a ton of fun.
             </p>
             <div className="animated animatedFadeInUp flex items-center">
                 <a aria-label="Author" className="mr-3">
@@ -54,13 +54,12 @@ const Reviews = () => {
                   className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                   <p className="animated animatedFadeInUp font-sans text-xl text-orange font-extrabold leading-none tracking-tight lg:text-2xl">
-                    What an experience
+                    Justin of the Jungle? :)
                   </p>
                 </a>
               </div>
               <p className="animated animatedFadeInUp mb-4 text-base text-gray-700 md:text-lg">
-                I loved the sphinx and the amazing architechture and history! It felt like I was living in the past. Sad I had to come back to the present. Thanks Xplore!
-              </p>
+                I loved the skywalk and the amazing view It felt like I was living in the world of <i>Tarzan</i></p>
               <div className="animated animatedFadeInUp flex items-center">
                 <a aria-label="Author" className="mr-3">
                   <img
@@ -74,10 +73,10 @@ const Reviews = () => {
                     aria-label="Author"
                     className="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-400"
                   >
-                    Alex Stratulat
+                    Justin Moralez
                   </a>
                   <p className="text-sm font-medium leading-4 text-gray-600">
-                    Travel Journalist
+                    Tourist
                   </p>
                 </div>
               </div>
@@ -92,13 +91,13 @@ const Reviews = () => {
                   className="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
                   <p className="animated animatedFadeInUp font-sans text-xl text-orange font-extrabold leading-none tracking-tight lg:text-2xl">
-                    Hump Day!!!
+                    Netflix and Chill + trees
                   </p>
                 </a>
               </div>
               <p className="animated animatedFadeInUp mb-4 text-base text-gray-700 md:text-lg">
-                My favorite part by faaarrrrr was the camel rides! It was so much fun and they were really weird :P 
-                Plus the buffet is so good! I would definitely splurge and go for the premium package.
+                It was a pretty cool hotel, the interior looked cool with all the wood and lights. 
+                I liked the wifi, made it easy to log in and watch some netflix with my girl.
               </p>
               <div className="animated animatedFadeInUp flex items-center">
                 <a aria-label="Author" className="mr-3">
@@ -113,7 +112,7 @@ const Reviews = () => {
                     aria-label="Author"
                     className="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-400"
                   >
-                    Susie the Cat
+                    JohnnyKing12
                   </a>
                   <p className="text-sm font-medium leading-4 text-gray-600">
                     Tourist

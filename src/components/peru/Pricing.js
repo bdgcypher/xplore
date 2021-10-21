@@ -47,7 +47,7 @@ export const Pricing = () => {
                   </p>
                   <div class="flex items-center justify-center">
                     <p class="mr-2 text-5xl font-semibold text-gray-900 lg:text-6xl">
-                      $789
+                      $895
                     </p>
                     <p class="text-lg text-gray-500">- 1 week</p>
                   </div>
@@ -75,7 +75,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-700">Guided tour of Khufu's Pyramid</p>
+                    <p class="font-medium text-gray-700">Guided tour of Machu Picchu</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
@@ -99,7 +99,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-700">2 free camel rides</p>
+                    <p class="font-medium text-gray-700">Free time to explore</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
@@ -123,7 +123,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-700">Visit the Sphynx</p>
+                    <p class="font-medium text-gray-700">Peruvian Cuisine</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
@@ -169,7 +169,7 @@ export const Pricing = () => {
                   </p>
                   <div class="flex items-center justify-center">
                     <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
-                      $1903
+                      $2037
                     </p>
                     <p class="text-lg text-gray-200">- 2 weeks</p>
                   </div>
@@ -197,7 +197,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-100">Guided tour of Khufu's Pyramid</p>
+                    <p class="font-medium text-gray-100">Guided tour of Machu Picchu</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
@@ -221,7 +221,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-100">5 free camel rides</p>
+                    <p class="font-medium text-gray-100">Unlimited time to explore!</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
@@ -245,7 +245,7 @@ export const Pricing = () => {
                         />
                       </svg>
                     </div>
-                    <p class="font-medium text-gray-100">Visit the Sphynx</p>
+                    <p class="font-medium text-gray-100">Free Peruvian cuisine</p>
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
