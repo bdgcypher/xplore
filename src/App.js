@@ -20,7 +20,7 @@ import Photography from './pages/Photography';
 
 function App() {
   return (
-    <Router >
+    <Router forceRefresh={true} >
       <Loader />
       <Navbar />
       <Switch>
