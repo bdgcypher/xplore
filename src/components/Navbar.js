@@ -7,14 +7,14 @@ import { Btn } from './Btn'
 const Navbar = () => {
   return (
     <Nav id="top">
-      <NavLogo to="/xplore">Xplore</NavLogo>
+      <NavLogo to="/">Xplore</NavLogo>
       <Bars />
       <NavItems>
-        <NavItem to="/xplore/about">About</NavItem>
-        <NavItem to="/xplore/destinations">Destinations</NavItem>
-        <NavItem to="/xplore/careers">Careers</NavItem>
+        <NavItem to="/about">About</NavItem>
+        <NavItem to="/destinations">Destinations</NavItem>
+        <NavItem to="/careers">Careers</NavItem>
       </NavItems>
-      <NavBtn to="/xplore/destinations" primary={true} round={true} big={false}>Book a trip</NavBtn>
+      <NavBtn to="/destinations" primary={true} round={true} big={false}>Book a trip</NavBtn>
     </Nav>
   )
 }

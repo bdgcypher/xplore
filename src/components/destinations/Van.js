@@ -32,7 +32,7 @@ const Van = () => {
                   Pick your route, and don't forget your Pj's because home is coming with <i>you</i> as you cruise down the coast 
                   and experience a taste of #vanlife. With a built in bed, solar-power, and plenty of space, you will feel at home while on the road.
                 </p>
-                <BtnSlide to="/xplore/van" primary={true} round={true} className="animated animatedFadeInUp flex h-12 w-40 mx-auto my-10 w-md text-md">Schedule Trip</BtnSlide>
+                <BtnSlide to="/van" primary={true} round={true} className="animated animatedFadeInUp flex h-12 w-40 mx-auto my-10 w-md text-md">Schedule Trip</BtnSlide>
               </div>
             </div>
           </div>

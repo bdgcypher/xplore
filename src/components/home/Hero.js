@@ -14,7 +14,7 @@ const Hero = () => {
                 <HeroItems>
                     <HeroH1 className="header animated FadeInUp"><b>Unbelievable</b> <b className="text-orange">Destinations</b> </HeroH1>
                     <HeroP className="header2 animated FadeInUp">Out of this world</HeroP>
-                    <HeroBtn primary={true} round={true} big={true} to="/xplore/destinations" className="header3 animated FadeInUp">See them all</HeroBtn>
+                    <HeroBtn primary={true} round={true} big={true} to="/destinations" className="header3 animated FadeInUp">See them all</HeroBtn>
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
