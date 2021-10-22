@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import "tailwindcss/tailwind.css"
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Loader from './components/Loader/Loader';
 import Footer from './components/Footer';
@@ -20,12 +20,12 @@ import Photography from './pages/Photography';
 
 function App() {
   return (
-    <Router >
+    <Router forceRefresh={true} >
       <Loader />
       <Navbar />
       <Switch>
-        <Route path="/xplore/" component={Home} exact />
-        <Route path="/xplore/destinations" component={Destinations} />
+        <Route path="/" component={Home} exact />
+        <Route path="/destinations" component={Destinations} />
         <Route path="/xplore/camels" component={Camels} />
         <Route path="/xplore/treehouse" component={Treehouses} />
         <Route path="/xplore/rockclimbing" component={Rockclimbing} />
