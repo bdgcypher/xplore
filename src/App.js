@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import "tailwindcss/tailwind.css"
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Loader from './components/Loader/Loader';
 import Footer from './components/Footer';
