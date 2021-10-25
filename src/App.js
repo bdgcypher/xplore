@@ -25,7 +25,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/destinations" component={Destinations} />
+        <Route path="/xplore/destinations" component={Destinations} />
         <Route path="/camels" component={Camels} />
         <Route path="/treehouse" component={Treehouses} />
         <Route path="/rockclimbing" component={Rockclimbing} />
