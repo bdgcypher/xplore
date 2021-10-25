@@ -26,7 +26,7 @@ const Rockclimbing = () => {
                   A 100% professionally certified guide will lead you through a series of climbs to reach the peaks. All equipment is included and Rations are provided. 
                   All you'll need is your camera and the spirit of <i>Adventure</i>.
                 </p>
-                <BtnSlide to="/rockclimbing" primary={true} round={true} className="animated animatedFadeInUp flex h-12 w-40 mx-auto my-10 w-md text-md">See Availability</BtnSlide>
+                <BtnSlide to="/xplore/rockclimbing" primary={true} round={true} className="animated animatedFadeInUp flex h-12 w-40 mx-auto my-10 w-md text-md">See Availability</BtnSlide>
               </div>
             </div>
           </div>

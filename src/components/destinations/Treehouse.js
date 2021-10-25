@@ -32,7 +32,7 @@ const Treehouse = () => {
                   Spend a week (or more) in one of these incredible treehouse hotels with meal plan, skywalk, and luxury sweet. 
                   You will never feel more free than when defying gravity in one of these terrific treehouse getaways.
                 </p>
-                <BtnSlide to="/treehouse" primary={true} round={true} className="animated animatedFadeInUp flex h-12 w-40 mx-auto my-10 w-md text-md">Great Deals</BtnSlide>
+                <BtnSlide to="/xplore/treehouse" primary={true} round={true} className="animated animatedFadeInUp flex h-12 w-40 mx-auto my-10 w-md text-md">Great Deals</BtnSlide>
               </div>
             </div>
           </div>

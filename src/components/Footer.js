@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
             <div className="md:max-w-md lg:col-span-2">
               <a
-                href="/"
+                href="/xplore"
                 aria-label="Go home"
                 title="Company"
                 className="inline-flex items-center"
@@ -45,7 +45,7 @@ const Footer = () => {
                 <ul className="mt-2 space-y-2">
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Flights
@@ -53,7 +53,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Cruises
@@ -61,7 +61,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Stays
@@ -69,7 +69,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Packages
@@ -84,7 +84,7 @@ const Footer = () => {
                 <ul className="mt-2 space-y-2">
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Web
@@ -92,7 +92,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Mobile
@@ -100,7 +100,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Desktop
@@ -115,7 +115,7 @@ const Footer = () => {
                 <ul className="mt-2 space-y-2">
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Media
@@ -123,7 +123,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Brochures
@@ -131,7 +131,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Careers
@@ -139,7 +139,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Educational Exchanges
@@ -154,7 +154,7 @@ const Footer = () => {
                 <ul className="mt-2 space-y-2">
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Infopreneur
@@ -162,7 +162,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Personal
@@ -170,7 +170,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Wiki
@@ -178,7 +178,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/xplore"
                       className="transition-colors duration-300 text-gray-900 hover:text-orange"
                     >
                       Forum
@@ -194,7 +194,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center mt-4 space-x-4 sm:mt-0">
               <a
-                href="/"
+                href="/xplore"
                 className="transition-colors duration-300 text-orange hover:text-cyan"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -202,7 +202,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="/"
+                href="/xplore"
                 className="transition-colors duration-300 text-orange hover:text-cyan"
               >
                 <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -211,7 +211,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="/"
+                href="/xplore"
                 className="transition-colors duration-300 text-orange hover:text-cyan"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">

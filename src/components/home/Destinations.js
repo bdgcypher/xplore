@@ -24,7 +24,7 @@ const Destinations = () => {
                     </p>
                 </div>
                 <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
-                    <a href="/camels" aria-label="View Item">
+                    <a href="/xplore/camels" aria-label="View Item">
                         <div className="animated animatedFadeInUp relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
                             <img
                                 className="object-cover w-full h-full md:h-64 xl:h-80"
@@ -36,11 +36,11 @@ const Destinations = () => {
                                 <p className="text-sm tracking-wide text-gray-300">
                                     Initially standing at 146.5 metres (481 feet) tall, the Giza Pyramids were the tallest man-made structures in the world for more than 3,800 years.
                                 </p>
-                                <BtnSlide to="/camels" primary={true} round={true} className="flex my-10 px-10 w-md">Visit this destination</BtnSlide>
+                                <BtnSlide to="/xplore/camels" primary={true} round={true} className="flex my-10 px-10 w-md">Visit this destination</BtnSlide>
                             </div>
                         </div>
                     </a>
-                    <a href="/treehouse" aria-label="View Item">
+                    <a href="/xplore/treehouse" aria-label="View Item">
                         <div className="animated animatedFadeInUp relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
                             <img
                                 className="object-cover w-full h-full md:h-64 xl:h-80"
@@ -55,11 +55,11 @@ const Destinations = () => {
                                     Some hotels are built high in the trees with branches as structural elements! For example the <i>Treehotel</i> near Piteå,
                                     Sweden or the Costa Rican <i>Tree House</i> near the Jairo Mora Sandoval.
                                 </p>
-                                <BtnSlide to="/treehouse" primary={true} round={true} className="flex my-10 px-10 w-md">Schedule a stay here</BtnSlide>
+                                <BtnSlide to="/xplore/treehouse" primary={true} round={true} className="flex my-10 px-10 w-md">Schedule a stay here</BtnSlide>
                             </div>
                         </div>
                     </a>
-                    <a href="/rockclimbing" aria-label="View Item">
+                    <a href="/xplore/rockclimbing" aria-label="View Item">
                         <div className="animated animatedFadeInUp relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
                             <img
                                 className="object-cover w-full h-full md:h-64 xl:h-80"
@@ -72,11 +72,11 @@ const Destinations = () => {
                                     The Rocky Mountains are a major mountain range and the largest mountain system in North America.
                                     Through <i>Xplore</i> you can take a guided Hiking or climbing excursion through their natural beauty.
                                 </p>
-                                <BtnSlide to="/rockclimbing" primary={true} round={true} className="flex my-10 px-10 w-md">Getaway to the wild</BtnSlide>
+                                <BtnSlide to="/xplore/rockclimbing" primary={true} round={true} className="flex my-10 px-10 w-md">Getaway to the wild</BtnSlide>
                             </div>
                         </div>
                     </a>
-                    <a href="/van" aria-label="View Item">
+                    <a href="/xplore/van" aria-label="View Item">
                         <div className="animated animatedFadeInUp relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
                             <img
                                 className="object-cover w-full h-full md:h-64 xl:h-80"
@@ -91,13 +91,13 @@ const Destinations = () => {
                                 In an oldschool style van converted to a tiny-home you are free to travel as much or little as you would like. 
                                 Rent now and cruise down the coast in style.
                                 </p>
-                                <BtnSlide to="/van" primary={true} round={true} className="flex my-10 px-10 w-md">Plan your Van-cation</BtnSlide>
+                                <BtnSlide to="/xplore/van" primary={true} round={true} className="flex my-10 px-10 w-md">Plan your Van-cation</BtnSlide>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div className="animated animatedFadeInUp text-center">
-                    <Btn to="/destinations">
+                    <Btn to="/xplore/destinations">
                         View All
                         <svg
                         className="inline-block w-3 ml-2"

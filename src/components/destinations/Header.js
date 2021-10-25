@@ -56,7 +56,7 @@ const Header = () => {
                       With an all inclusive vacation deal you can take a guided tour of the ruins,
                       experience authentic peruvian cuisine, and be a part of the colorful culture
                   </p>
-                  <Btn to="/machupicchu" primary={true} round={true} className="header5 animated fadeInUp inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-orange hover:bg-white focus:shadow-outline focus:outline-none">View Destination</Btn>
+                  <Btn to="/xplore/machupicchu" primary={true} round={true} className="header5 animated fadeInUp inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-orange hover:bg-white focus:shadow-outline focus:outline-none">View Destination</Btn>
                 </div>
               </div>
             </div>

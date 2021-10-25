@@ -24,7 +24,7 @@ export const Subscribe = () => {
                 Get more information on our other services or contact us with questions.
               </p>
               <a
-                href="/"
+                href="/xplore"
                 type="submit"
                 className="animated animatedFadeInUp inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 shadow-md bg-cyan hover:bg-orange focus:shadow-outline focus:outline-none"
               >

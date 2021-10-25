@@ -25,7 +25,7 @@ const Camels = () => {
                   With our Giza Pyramids package you can see the grand egyptian pyramids, ride camels, and even stand 
                   under the watchful gaze of the <i>Great Sphynx</i> of Giza.
                 </p>
-                <BtnSlide to="/camels" primary={true} round={true} className="animated animatedFadeInUp flex h-12 w-40 mx-auto my-10 w-md text-md">More Details</BtnSlide>
+                <BtnSlide to="/xplore/camels" primary={true} round={true} className="animated animatedFadeInUp flex h-12 w-40 mx-auto my-10 w-md text-md">More Details</BtnSlide>
               </div>
             </div>
           </div>
