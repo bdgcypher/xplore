@@ -24,16 +24,16 @@ function App() {
       <Loader />
       <Navbar />
       <Switch>
-        <Route path="/" component={Home} exact />
+        <Route path="/xplore/" component={Home} exact />
         <Route path="/xplore/destinations" component={Destinations} />
-        <Route path="/camels" component={Camels} />
-        <Route path="/treehouse" component={Treehouses} />
-        <Route path="/rockclimbing" component={Rockclimbing} />
-        <Route path="/van" component={Van} />
-        <Route path="/machupicchu" component={Peru} />
-        <Route path="/careers" component={Careers} />
-        <Route path="/about" component={About} />
-        <Route path="/photography" component={Photography} />
+        <Route path="/xplore/camels" component={Camels} />
+        <Route path="/xplore/treehouse" component={Treehouses} />
+        <Route path="/xplore/rockclimbing" component={Rockclimbing} />
+        <Route path="/xplore/van" component={Van} />
+        <Route path="/xplore/machupicchu" component={Peru} />
+        <Route path="/xplore/careers" component={Careers} />
+        <Route path="/xplore/about" component={About} />
+        <Route path="/xplore/photography" component={Photography} />
       </Switch>
       <Footer />
     </Router>
