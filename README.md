@@ -27,4 +27,5 @@ The user interface was designed using Tailwind CSS, which provides easy-to-use a
 
 ## Credits
 Tailwind CSS: https://tailwindcss.com/
+
 Tailwind UI: https://tailwindui.com/
