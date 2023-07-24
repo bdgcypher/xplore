@@ -25,6 +25,6 @@ The user interface was designed using Tailwind CSS, which provides easy-to-use a
 * Select a destination to view more details about the location
 * Visit the about page for more information about the fictitious travel agency
 
-##Credits
+## Credits
 Tailwind CSS: https://tailwindcss.com/
 Tailwind UI: https://tailwindui.com/
