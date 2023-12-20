@@ -79,7 +79,7 @@ const FAQ = () => {
               To book a flight or hotel in advance you need to go to our packages page and schedule your trip there. 
               Be sure to set teh start and end dates for your desired departure and return dates. 
             </Item>
-            <Item title="Is food inscluded?">
+            <Item title="Is food included?">
               It depends. Many of our premium packages include buffets and/or food allowances.
             </Item>
             <Item title="Are these deals for real!?">
